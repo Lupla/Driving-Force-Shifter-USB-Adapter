@@ -19,7 +19,7 @@
 
 // Shifter analog axis thresholds
 // Change these values if the gears aren't detected correctly
-#define XAXIS_LEFT_THRESH        300
+#define XAXIS_LEFT_THRESH        400
 #define XAXIS_RIGHT_THRESH       700
 #define YAXIS_UP_THRESH          700
 #define YAXIS_DOWN_THRESH        300
@@ -133,3 +133,4 @@ dataForController_t readController() {
   }
   return controllerData;
 }
+
